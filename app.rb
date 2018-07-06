@@ -9,7 +9,7 @@ class App < Sinatra::Base
     @name = params[:name]
     @coach = params[:coach]
     @pg = params[:pg]
-    @ppf = params[:pf]
+    @pf = params[:pf]
     @sg = params[:sg]
     @center = params[:c]
     erb :team
