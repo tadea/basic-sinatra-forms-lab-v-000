@@ -8,10 +8,10 @@ class App < Sinatra::Base
   post 'team' do
     @name = params[:name]
     @coach = params[:coach]
-    @pointguard = params[:pointguard]
-    @powerforward = params[:powerforward]
-    @shootingguard = params[:shootingguard]
-    @center = params[:center]
+    @pg = params[:pg]
+    @ppf = params[:pf]
+    @sg = params[:sg]
+    @center = params[:c]
     erb :team
   end
 
